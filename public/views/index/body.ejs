@@ -38,11 +38,11 @@
 
             <div id="home" class="section"<% if(signin) { %> style="display:none;"<% } %>>
                 <div class="inner cover">
-                    <h1 class="cover-heading"><i class="fa fa-file-text"></i> HackMD</h1>
-                    <p class="lead"><strong>Community Edition</strong></p>
+                    <h1 class="cover-heading"><i class="fa fa-file-text"></i> Docs</h1>
+                    <!--<p class="lead"><strong>Community Edition</strong></p>
                     <p class="lead">
                         <%= __('Best way to write and share your knowledge in markdown.') %>
-                    </p>
+                    </p>-->
                     <% if (infoMessage && infoMessage.length > 0) { %>
                     <div class="alert alert-info" style="max-width: 400px; margin: 0 auto;"><%= infoMessage %></div>
                     <% } %>
@@ -147,11 +147,8 @@
                         <option value="da">dansk</option>
                     </select>
                     <p>
-                        &copy; 2018 <a href="https://hackmd.io">HackMD</a> | <a href="<%- url %>/s/release-notes" target="_blank"><%= __('Releases') %></a>
+                        &copy; 2018 <a href="https://hackmd.io">HackMD</a></a>
                     </p>
-                    <h6 class="social-foot">
-                        <%- __('Follow us on %s and %s.', '<a href="https://github.com/hackmdio/HackMD" target="_blank"><i class="fa fa-github"></i> GitHub</a>, <a href="https://twitter.com/hackmdio" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>', '<a href="https://www.facebook.com/hackmdio" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>') %>
-                    </h6>
                 </div>
             </div>
         </div>
