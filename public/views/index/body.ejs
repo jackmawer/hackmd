@@ -39,10 +39,6 @@
             <div id="home" class="section"<% if(signin) { %> style="display:none;"<% } %>>
                 <div class="inner cover">
                     <h1 class="cover-heading"><i class="fa fa-file-text"></i> Docs</h1>
-                    <!--<p class="lead"><strong>Community Edition</strong></p>
-                    <p class="lead">
-                        <%= __('Best way to write and share your knowledge in markdown.') %>
-                    </p>-->
                     <% if (infoMessage && infoMessage.length > 0) { %>
                     <div class="alert alert-info" style="max-width: 400px; margin: 0 auto;"><%= infoMessage %></div>
                     <% } %>
@@ -62,26 +58,6 @@
                         <br>
                         <!--<img src="<%- url %>/screenshot.png" class="screenshot ui-signin">-->
                     </span>
-                    <div class="lead row" style="width: 90%; margin: 0 auto;">
-                        <div class="col-md-4 inner">
-                            <a href="<%- url %>/features#share-notes">
-                                <i class="fa fa-bolt fa-3x"></i>
-                                <h4><%= __('Collaborate with URL') %></h4>
-                            </a>
-                        </div>
-                        <div class="col-md-4 inner">
-                            <a href="<%- url %>/features#mathjax">
-                                <i class="fa fa-bar-chart fa-3x"></i>
-                                <h4><%= __('Support charts and MathJax') %></h4>
-                            </a>
-                        </div>
-                        <div class="col-md-4 inner">
-                            <a href="<%- url %>/features#slide-mode">
-                                <i class="fa fa-tv fa-3x"></i>
-                                <h4><%= __('Support slide mode') %></h4>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
 
